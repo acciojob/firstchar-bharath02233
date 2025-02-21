@@ -1,5 +1,11 @@
 function firstChar(text) {
- return text.trim().charAt(0);
+  // Loop through the string to find the first non-space character
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] !== ' ') {
+            return str[i]; // Return the first non-space character
+        }
+    }
+    return '';
 }
 
 // Do not change the code below
